@@ -35,6 +35,7 @@ body {
 
 #headshot {
     float: right;
+    border-radius: 3%;
 }
 
 #text {
