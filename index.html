@@ -3,26 +3,28 @@
     <head>
         <title>Home - Chris Cardus</title>
         <link rel="stylesheet" type="text/css" href="/style/style.css">
+        <link href="http://fonts.googleapis.com/css?family=Roboto|Roboto+Slab:700|Roboto+Condensed" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="/javascript/javascript.js"></script>
     </head>
-    <body>
+    <body onload="initialise()">
         <div id="navigation">
-            <div id="home-nav">
+            <a><div id="home-nav" class="selected">
                 Home
-            </div>
-            <div id="prog-nav">
+            </div></a>
+            <a href="pages/programs.html"><div id="prog-nav" class="out">
                 Programs
-            </div>
-            <div id="contact-nav">
-                Contact Me
-            </div>
+            </div></a>
+            <a href="http://uk.linkedin.com/in/chriscardus" target="_blank"><div id="contact-nav" class="out">
+                LinkedIn Profile
+            </div></a>
         </div>
         <div id="main">
             <div id="text">
+                <img src="/images/headshot.jpg" alt="Portrait Photo" id="headshot">
                 <h1>Chris Cardus</h1>
                 <p>I am currently studying towards a BSc in Computer Science at the University of Birmingham. My course also includes a year in industry during the third year. I am in the first year at the moment and I am currently looking for a summer internship. I want to work over the summer so that I can supplement and improve the skills that I have learned during my first year of university.</p>
-                <p>This website contains my digital CV as well as a sample of the programming work that I have done and the programs that I have created. If you would like to contact me, please find my contact details on the <a href="/pages/contact.html"><b>contact page</b></a>.</p>
+                <p>This website contains my digital CV as well as a sample of the programming work that I have done and the programs that I have created. If you would like to contact me, please find my contact details on my <a href="http://uk.linkedin.com/in/chriscardus" target="_blank"><b>LinkedIn profile page</b></a>.</p>
             </div>
-            <img src="/images/headshot.jpg" alt="Portrait Photo" id="headshot">
         </div>
     </body>
 </html>

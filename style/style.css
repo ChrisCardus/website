@@ -15,31 +15,61 @@ body {
     padding: 1% 5%;
     display: inline-block;
     width: 90%;
-    background: #F2F2F2;
+    background: #F9F9F9;
+    border-radius: inherit;
 }
 
 #navigation {
-    width: 100%;
     border: none;
     height: 40px;
-    background: linear-gradient(#D1D1D1, #F2F2F2);
+    background: linear-gradient(#D1D1D1, #F9F9F9);
 }
 
 #navigation div {
+    width: 33.33%;
+    width: calc(100% / 3);
     float: left;
     height: inherit;
+    text-align: center;
     line-height: 40px;
-    padding-left: 10%;
-    padding-right: 10%;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 #headshot {
     float: right;
     width: 214px;
     height: 220px;
+    margin: 5%;
+    margin-top: 10px;
 }
 
 #text {
-    float: left;
-    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+}
+
+a {
+    color: inherit;
+}
+
+.hover {
+    background: linear-gradient(#C1C1C1, #F9F9F9);
+}
+
+.down {
+    box-shadow: 0px 0px 2px 2px #C1C1C1 inset;
+    background: linear-gradient(#C1C1C1, #F9F9F9);
+}
+
+.selected {
+    background: linear-gradient(#C1C1C1, #F9F9F9);
 }
